@@ -8,7 +8,7 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies = [
+var enemies = [
   "Lex",
   "Batman",
   "Darkseid",
