@@ -71,8 +71,9 @@ toggleLight = function(arr) {
   }
   if (total % 2 === 0) {
     lightIsOn = true;
+    console.log("light is on");
   } else {
     lightIsOn = false;
+    console.log("light is off");
   }
-  console.log(lightIsOn);
 };
