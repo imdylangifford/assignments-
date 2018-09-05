@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1b4079;
+  color: #cbdf90;
+}
+
+.allposts {
+  margin-top: 150px;
+}
+
+.post {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 80%;
+  height: 500px;
+  background: #4d7c8a;
+}
+
+img {
+  padding: 20px;
+  height: 60%;
+  width: 40%;
+  float: left;
+}
+
+p {
+  font-size: 32px;
+}
+
+h1 {
+  padding: 20px;
+}
+
+span {
+  padding: 20px;
+  font-size: 24px;
+}
