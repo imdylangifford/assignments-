@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "SuperMarioGalaxy";
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  height: 9vh;
+  font-size: 36px;
+  background: #ffdb58;
+  color: red;
+}
+
+#header {
+  margin-left: 10%;
+}
+
+#two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: red;
+  padding: 25px;
+  height: 32vh;
+}
+
+#three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  padding: 20px;
+}
+
+h2 {
+  padding-top: 20px;
+  width: 30%;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+}
+
+#four {
+  display: flex;
+  background: #ffdb58;
+  justify-content: flex-end;
+  height: auto;
+  width: auto;
+}
+
+#toad {
+  height: 75px;
+  width: 75px;
+  padding: 7px;
+}
