@@ -7,14 +7,14 @@
 #one {
   display: flex;
   align-items: center;
-  height: 9vh;
-  font-size: 36px;
+  height: 8vh;
+  font-size: 48px;
   background: #ffdb58;
   color: red;
 }
 
 #header {
-  margin-left: 10%;
+  margin-left: 7%;
 }
 
 #two {
