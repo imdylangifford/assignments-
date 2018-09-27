@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  background: rgba(104, 104, 104, 0.8);
+}
+
+#headerText {
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+}
+
+form {
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  width: 90%;
+}
+
+#todo {
+  width: 90%;
+  font-family: "arial";
+  font-weight: 100;
+  font-size: 24px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: arial;
+  color: #333;
+}
+#todolist {
+}
+
+div button {
+  margin-left: 10px;
+}
+
+.deleteBtn {
+  background-color: #f44336; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.todoDiv {
+  display: flex;
+}
+
+button {
+  margin: 5px;
+}
+
+.completed {
+  background: rgba(104, 104, 104, 0.9);
+  color: rgb(140, 140, 140);
+}

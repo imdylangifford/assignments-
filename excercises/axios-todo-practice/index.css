@@ -1,0 +1,14 @@
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  background: burlywood;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
