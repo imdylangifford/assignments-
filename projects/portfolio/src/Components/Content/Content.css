@@ -1,0 +1,78 @@
+.view {
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.scroll {
+  height: 300px;
+  width: 300px;
+  background: blue;
+  margin: 0 auto;
+}
+
+.text {
+  grid-column: 1/-1;
+  grid-row: 5;
+  color: #2789c2;
+}
+
+.stuff {
+  grid-column: 1/-1;
+  grid-row: 10/-1;
+  color: rgb(0, 0, 0);
+}
+
+.links {
+  padding-top: 10px;
+  grid-column: 12;
+  grid-row: 1;
+}
+
+a > span {
+  padding-top: 5px;
+  margin: 5px;
+  color: #2789c2;
+  border-bottom: 2px solid #2789c2;
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 50px;
+}
+
+@media only screen and (max-width: 860px) and (min-width: 750px) {
+  h1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 749px) and (min-width: 415px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  h1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .stuff {
+    grid-row: 9/-1;
+  }
+  .view {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .view {
+    width: 65%;
+  }
+}
