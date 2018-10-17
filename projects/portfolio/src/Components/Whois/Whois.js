@@ -5,17 +5,31 @@ export default function Whois() {
   return (
     <div className="whoiscontainer">
       <div className="whoisleft">
-        <h1 className="title">WhoIs Lookup</h1>
-        <p className="whoislink title">
-          <a href="">check the code</a>{" "}
+        <h1 className="title">Domain Lookup</h1>
+        <p className="title">
+          <a
+            className="whoislink"
+            href="https://github.com/imdylangifford/Domain-Lookup"
+            target="_blank"
+          >
+            check the code
+          </a>
+        </p>
+        <p className="title">
+          <a
+            className="whoislink"
+            href="https://domainlookup.surge.sh"
+            target="_blank"
+          >
+            live example
+          </a>
         </p>
       </div>
       <div className="whoisright">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          veritatis soluta, quae libero, maiores unde saepe, dolorem quidem
-          rerum sed eos vel facilis! Porro asperiores, quasi rerum excepturi
-          temporibus deleniti.
+          Domain Lookup is a tool that quickly and efficiently lets you get
+          information on nearly any domain. The simple design aesthetic lets you
+          get the information you want without any clutter.
         </p>
         <img
           className="whoisimg"
@@ -23,10 +37,9 @@ export default function Whois() {
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-          commodi officiis ratione temporibus quo, soluta animi, inventore
-          molestias distinctio minus eum recusandae unde adipisci! Eligendi,
-          recusandae? Officia fugiat sit iusto.
+          This front end project was built with React using a clean component
+          based archiecture. Axios is used to make the API calls and Particle JS
+          was added to create a minimal background effect.
         </p>
       </div>
     </div>
